@@ -101,3 +101,20 @@ $ npm test
 
 
   2 passing (5ms)
+
+  # Edge Case 
+  $ npm test
+
+> blank-workspace@1.0.0 test /home/ccuser/workspace/tdd-mocha-project
+> mocha
+
+
+
+  Calculate
+    .factorial
+      ✓ Tests if the output of 5! is equal to 120
+      ✓ Tests if the output of 3! is equal to 6
+      ✓ returns 1 when you pass in 0
+
+
+  3 passing (7ms)
