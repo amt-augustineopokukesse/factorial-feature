@@ -8,7 +8,17 @@ describe('Calculate', () => {
       const expectedResult = 120;
       const inputNum = 5;
       //exercise
-      const actualResult = Calculate.factorial(5);
+      const actualResult = Calculate.factorial(inputNum);
+      //verify
+      assert.equal(actualResult, expectedResult);
+    })
+    // Red part 2
+    it('Tests if the output of 3! is equal to 6', () => {
+      //setup
+      const expectedResult = 6;
+      const inputNum =3;
+      //exercise
+      const actualResult = Calculate.factorial(inputNum);
       //verify
       assert.equal(actualResult, expectedResult);
     })

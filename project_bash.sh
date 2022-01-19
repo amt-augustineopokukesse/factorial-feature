@@ -37,4 +37,34 @@ $ npm test
 
 
   1 passing (5ms)
-  
+
+# Red Part 2
+  $ npm test
+
+> blank-workspace@1.0.0 test /home/ccuser/workspace/tdd-mocha-project
+> mocha
+
+
+
+  Calculate
+    .factorial
+      ✓ Tests if the output of 5! is equal to 120
+      1) Tests if the output of 3! is equal to 6
+
+
+  1 passing (7ms)
+  1 failing
+
+  1) Calculate .factorial Tests if the output of 3! is equal to 6:
+
+      AssertionError: 120 == 6
+      + expected - actual
+
+      -120
+      +6
+      
+      at Context.it (test/index_test.js:23:14)
+
+
+
+npm ERR! Test failed.  See above for more details.
