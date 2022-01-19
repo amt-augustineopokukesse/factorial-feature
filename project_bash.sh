@@ -23,4 +23,18 @@ $ npm test
 
 npm ERR! Test failed.  See above for more details.
 
+# Green part1 and refactor part1
+$ npm test
 
+> blank-workspace@1.0.0 test /home/ccuser/workspace/tdd-mocha-project
+> mocha
+
+
+
+  Calculate
+    .factorial
+      ✓ Tests if the output of 5! is equal to 120
+
+
+  1 passing (5ms)
+  
