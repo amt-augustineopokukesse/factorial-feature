@@ -3,7 +3,7 @@ const Calculate = {
         let factResult = 1;
         while(input != 0) {
             factResult *= input;
-            input -= 1;
+            input--;
         }
         return factResult;
       }

@@ -85,4 +85,19 @@ $ npm test
 
 
   2 passing (6ms)
-  
+
+# Refactor part 2- Refactor implementation code
+$ npm test
+
+> blank-workspace@1.0.0 test /home/ccuser/workspace/tdd-mocha-project
+> mocha
+
+
+
+  Calculate
+    .factorial
+      ✓ Tests if the output of 5! is equal to 120
+      ✓ Tests if the output of 3! is equal to 6
+
+
+  2 passing (5ms)
